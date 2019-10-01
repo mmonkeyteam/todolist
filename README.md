@@ -1,2 +1,3 @@
-# todolist-service
-The todolist-service microservice
+# todolist repo
+
+The todolist microservice containing source code, database configuration, environment variables configurations.
