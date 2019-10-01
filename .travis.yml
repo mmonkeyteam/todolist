@@ -1,0 +1,14 @@
+language: java
+
+jdk:
+  - openjdk11
+
+script:
+  - $HOME/todolist-service/mvn package -DskipTests
+
+# branches for the builds
+branches:
+  only:
+  - develop
+  except:
+  - master
