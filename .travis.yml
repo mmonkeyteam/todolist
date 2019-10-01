@@ -3,8 +3,9 @@ language: java
 jdk:
   - openjdk11
 
+before_script: cd todolist-service
 script:
-  - $HOME/todolist-service/mvn package -DskipTests
+  - mvn package -DskipTests
 
 # branches for the builds
 branches:
