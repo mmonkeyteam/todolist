@@ -5,7 +5,7 @@ jdk:
 
 before_script: cd todolist-service
 script:
-  - mvn package -DskipTests
+  - gradle build -x test
 
 # branches for the builds
 branches:
