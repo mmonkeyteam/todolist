@@ -1,0 +1,12 @@
+subprojects {
+    apply plugin: 'java'
+
+    sourceCompatibility = '11'
+}
+
+allprojects {
+    repositories {
+	mavenLocal()
+        mavenCentral()
+    }
+}
